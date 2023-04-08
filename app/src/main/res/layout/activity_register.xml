@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f7ede2"
-    tools:context=".register">
+    tools:context=".Register">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="@font/satoshibold"
         android:text="Sign Up"
         android:textColor="#000000"
         android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,9 +24,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="80dp"
         android:layout_marginBottom="572dp"
         android:text="Create an Account to Start Your Journey"
         android:textColor="#292929"
@@ -34,49 +32,50 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="345dp"
         android:layout_height="43dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:text="Username"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="345dp"
         android:layout_height="43dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
+        android:text="Username"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
         android:text="Password"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,20 +85,20 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="345dp"
         android:layout_height="43dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
         android:text="Confirm Password"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,20 +108,20 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="345dp"
         android:layout_height="43dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="10dp"
         android:text="Show Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
@@ -131,22 +130,23 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"
         android:text="Email"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="339dp"
+        android:layout_width="345dp"
         android:layout_height="59dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#FF6961"
-        android:layout_marginStart="32dp"
         android:fontFamily="@font/satoshimedium"
         android:text="Sign Up"
         app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
@@ -155,7 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/satoshibold"
         android:text=" Already has an account?"
         android:textColor="#000000"
@@ -167,7 +167,9 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/satoshimedium"
         android:text="Login"
         android:textColor="#FF6961"
         android:textSize="13dp"

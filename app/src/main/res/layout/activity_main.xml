@@ -16,11 +16,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="280dp"
+        android:id="@+id/goToButton"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="292dp"
+        android:background="@android:color/transparent"
         android:text="Button"
+        android:textColor="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
