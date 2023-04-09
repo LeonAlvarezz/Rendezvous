@@ -8,12 +8,11 @@
     tools:context=".Startup_option">
 
     <Button
-        android:id="@+id/regis_butt"
+        android:id="@+id/button4"
         android:layout_width="220dp"
         android:layout_height="65dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/satoshimedium"
-        android:onClick="createButton"
         android:text="Create an account"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
