@@ -15,6 +15,15 @@
             android:name=".task_view"
             android:exported="false" />
         <activity
+            android:name=".update"
+            android:exported="false" />
+        <activity
+            android:name=".add_task"
+            android:exported="false" />
+        <activity
+            android:name=".project_view"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
