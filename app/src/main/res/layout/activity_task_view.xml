@@ -120,8 +120,11 @@
         android:id="@+id/button7"
         android:layout_width="75dp"
         android:layout_height="54dp"
-        android:radius="0sp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/leader"
+        android:radius="0dp"
         android:text="add"
         tools:layout_editor_absoluteX="338dp"
         tools:layout_editor_absoluteY="678dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
