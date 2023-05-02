@@ -1,10 +1,12 @@
-package com.example.rendezvous;
+package com.example.rendezvous.project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class project_list extends AppCompatActivity {
+import com.example.rendezvous.R;
+
+public class ProjectList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

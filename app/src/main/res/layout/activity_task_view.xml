@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".task_view">
+    tools:context=".task.TaskView">
 
     <View
         android:id="@+id/divider3"

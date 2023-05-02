@@ -12,43 +12,43 @@
         android:theme="@style/Theme.Rendezvous"
         tools:targetApi="31">
         <activity
-            android:name=".task_view_member"
+            android:name=".task.TaskViewMember"
             android:exported="false" />
         <activity
-            android:name=".member_project_view"
+            android:name=".project.ProjectViewMember"
             android:exported="false" />
         <activity
-            android:name=".member_project_list"
+            android:name=".project.ProjectListMember"
             android:exported="false" />
         <activity
-            android:name=".project_list"
+            android:name=".project.ProjectList"
             android:exported="false" />
         <activity
-            android:name=".search"
+            android:name=".Search"
             android:exported="false" />
         <activity
-            android:name=".task_view"
+            android:name=".task.TaskView"
             android:exported="false" />
         <activity
-            android:name=".update"
+            android:name=".task.UpdateTask"
             android:exported="false" />
         <activity
-            android:name=".add_task"
+            android:name=".task.AddTask"
             android:exported="false" />
         <activity
-            android:name=".project_view"
+            android:name=".project.ProjectView"
+            android:exported="false" />
+        <activity
+            android:name=".StartOption"
+            android:exported="false" />
+        <activity
+            android:name=".login_register.Login"
+            android:exported="false" />
+        <activity
+            android:name=".login_register.Register"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
-            android:exported="false" />
-        <activity
-            android:name=".Startup_option"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

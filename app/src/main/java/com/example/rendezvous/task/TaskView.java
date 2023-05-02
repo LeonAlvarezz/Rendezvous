@@ -1,14 +1,16 @@
-package com.example.rendezvous;
+package com.example.rendezvous.task;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class search extends AppCompatActivity {
+import com.example.rendezvous.R;
+
+public class TaskView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
+        setContentView(R.layout.activity_task_view);
     }
 }

@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#f7ede2"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    android:background="#f7ede2"
+    tools:context=".login_register.Login">
 
     <Button
         android:id="@+id/button"
@@ -133,27 +133,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
-    <TextView
-        android:id="@+id/textView17"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="14dp"
-        android:fontFamily="@font/satoshibold"
-        android:text="Doesn't have an account?"
-        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16">
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="14dp"
-        android:fontFamily="@font/satoshimedium"
-        android:text="Sign Up"
-        android:textColor="@color/leader"
-        app:layout_constraintStart_toEndOf="@+id/textView17"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satoshibold"
+            android:text="Doesn't have an account?"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/sign_up_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/satoshimedium"
+            android:text="Sign Up"
+            android:textColor="@color/leader" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

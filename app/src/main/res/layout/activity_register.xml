@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f7ede2"
-    tools:context=".Register">
+    tools:context=".login_register.Register">
 
     <TextView
         android:id="@+id/textView"
@@ -154,31 +154,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
-    <TextView
-        android:id="@+id/textView7"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/satoshibold"
-        android:text=" Already has an account?"
-        android:textColor="#000000"
-        android:textSize="13dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.42"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2">
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="11dp"
-        android:fontFamily="@font/satoshimedium"
-        android:text="Login"
-        android:textColor="#FF6961"
-        android:textSize="13dp"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="3dp"
+            android:fontFamily="@font/satoshibold"
+            android:text=" Already has an account?"
+            android:textColor="#000000"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satoshimedium"
+            android:text="Login"
+            android:textColor="#FF6961"
+            android:textSize="13dp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,9 +2,15 @@ package com.example.rendezvous;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     Button goToButton;
@@ -12,10 +18,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        goToButton = findViewById(R.id.goToButton);
-        goToButton.setOnClickListener(view ->{
-            Intent intent = new Intent(MainActivity.this, Register.class);
-            startActivity(intent);
-        });
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, StartOption.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 2000);
+
     }
 }

@@ -1,10 +1,12 @@
-package com.example.rendezvous;
+package com.example.rendezvous.task;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class task_view_member extends AppCompatActivity {
+import com.example.rendezvous.R;
+
+public class TaskViewMember extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
