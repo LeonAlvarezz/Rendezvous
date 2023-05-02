@@ -120,11 +120,13 @@
         android:id="@+id/button7"
         android:layout_width="75dp"
         android:layout_height="54dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="679dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/leader"
         android:radius="0dp"
         android:text="add"
-        tools:layout_editor_absoluteX="338dp"
-        tools:layout_editor_absoluteY="678dp" />
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
