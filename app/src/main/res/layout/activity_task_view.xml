@@ -7,6 +7,15 @@
     android:background="@color/background"
     tools:context=".task_view">
 
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="420dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="14dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
