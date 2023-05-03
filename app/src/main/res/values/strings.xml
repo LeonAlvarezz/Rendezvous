@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rendezvous</string>
+    <string name="email">Email\n</string>
+    <string name="email1">Email</string>
 </resources>
